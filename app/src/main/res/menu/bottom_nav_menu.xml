@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_graph"
+        android:icon="@drawable/selector_graph"
+        android:title="@string/menu_graph" />
+    <item
+        android:id="@+id/menu_news"
+        android:icon="@drawable/selector_news"
+        android:title="@string/menu_news" />
+    <item
+        android:id="@+id/menu_favourite"
+        android:icon="@drawable/selector_bookmark"
+        android:title="@string/menu_favourite" />
+</menu>

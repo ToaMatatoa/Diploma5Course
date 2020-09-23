@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF5722</color>
+    <color name="sea">#009688</color>
+    <color name="yellow">#ebb335</color>
+    <color name="palegreen">#98FB98</color>
+    <color name="green">#008000</color>
+    <color name="lightseagreen">#20B2AA</color>
+
+    <color name="bg_graph_fragment">#CDE1E1</color>
+    <color name="main_gray">#757575</color>
+</resources>
