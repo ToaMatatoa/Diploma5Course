@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Corona News</string>
+    <string name="app_name" translatable="false">Diploma EKG</string>
     <string name="menu_graph">Graph</string>
     <string name="menu_news">News</string>
     <string name="menu_favourite">Favourite</string>

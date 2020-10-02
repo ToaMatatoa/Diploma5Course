@@ -7,13 +7,17 @@ android {
     buildToolsVersion "29.0.3"
 
     compileOptions {
-        targetCompatibility = "8"
-        sourceCompatibility = "8"
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
     defaultConfig {
         dataBinding.enabled = true
-        applicationId "com.example.coronanews"
+        applicationId "com.example.diploma_ecg"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -68,6 +72,8 @@ dependencies {
     implementation 'androidx.browser:browser:1.2.0'
     //Graphs
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    //Lottie
+    implementation 'com.airbnb.android:lottie:3.4.2'
 
     implementation "com.google.android.gms:play-services-location:17.0.0"
     implementation "com.google.android.gms:play-services-gcm:17.0.0"
