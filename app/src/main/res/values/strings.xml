@@ -3,7 +3,7 @@
     <string name="menu_graph">Graph</string>
     <string name="menu_news">News</string>
     <string name="menu_favourite">Favourite</string>
-    <string name="covid_world_statistics">Covid world statistics</string>
+    <string name="ecg_graph">ECG chart</string>
     <string name="covid_ukraine_statistics">Covid Ukraine statistics</string>
     <string name="covid_ua_ru_usa_statistics">Covid UA, RU, USA statistics</string>
     <string name="ua_covid_statistics_per_week_month">UA covid statistics per week, month</string>

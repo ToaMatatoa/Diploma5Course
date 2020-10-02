@@ -19,38 +19,12 @@ class GraphPresenter(private val view: GraphContract.View) : GraphContract.Prese
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe({
                     view.showWorldStatistics(it)
+
                 }, {
                     Log.getStackTraceString(it)
+                    view.showAnimationNoInternet()
                 }
                 )
-        )
-    }
-
-    override fun getCountryStatistics() {
-        compositeDisposable.add(
-            statisticsRepository.getCountryStatistics()
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe({
-                    view.showCountryStatistics(it)
-                },
-                    {
-                        Log.getStackTraceString(it)
-                    })
-        )
-    }
-
-    override fun getLiveStatistics() {
-        compositeDisposable.add(
-            statisticsRepository.getLiveStatistics()
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe({
-                    view.showLiveStatistics(it)
-                },
-                    {
-                        Log.getStackTraceString(it)
-                    })
         )
     }
 

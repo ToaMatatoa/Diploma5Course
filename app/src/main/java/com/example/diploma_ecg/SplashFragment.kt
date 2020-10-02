@@ -19,7 +19,7 @@ class SplashFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        activity?.window?.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+       // activity?.window?.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
 
         splash_loading?.speed = 2.0F // How fast does the animation play
         splash_loading?.progress = 0.5F // Starts the animation from 50% of the beginning

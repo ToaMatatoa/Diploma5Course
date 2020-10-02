@@ -9,14 +9,11 @@ interface GraphContract {
 
     interface View {
         fun showWorldStatistics(worldStatisticsDataItems: Pair<Global, Date>)
-        fun showCountryStatistics(countryStatisticsDataItems: List<Country>)
-        fun showLiveStatistics(liveStatisticsDataItem: List<CountryLiveResponse>)
+        fun showAnimationNoInternet()
     }
 
     interface Presenter {
         fun getWorldStatistics()
-        fun getCountryStatistics()
-        fun getLiveStatistics()
         fun onDestroy()
     }
 
