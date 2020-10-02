@@ -1,6 +1,5 @@
-package com.example.coronanews.graph.data
+package com.example.diploma_ecg.graph.data
 
-import com.example.coronanews.news.data.RetrofitResponseInterceptor
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -1,4 +1,4 @@
-package com.example.coronanews
+package com.example.diploma_ecg
 
 import org.junit.Test
 

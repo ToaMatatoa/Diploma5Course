@@ -1,7 +1,7 @@
-package com.example.coronanews.graph.ui
+package com.example.diploma_ecg.graph.ui
 
 import android.util.Log
-import com.example.coronanews.graph.data.StatisticsRepositoryProvider
+import com.example.diploma_ecg.graph.data.StatisticsRepositoryProvider
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

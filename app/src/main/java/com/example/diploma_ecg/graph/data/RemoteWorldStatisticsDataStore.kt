@@ -1,8 +1,8 @@
-package com.example.coronanews.graph.data
+package com.example.diploma_ecg.graph.data
 
-import com.example.coronanews.graph.model.Country
-import com.example.coronanews.graph.model.CountryLiveResponse
-import com.example.coronanews.graph.model.Global
+import com.example.diploma_ecg.graph.model.Country
+import com.example.diploma_ecg.graph.model.CountryLiveResponse
+import com.example.diploma_ecg.graph.model.Global
 import io.reactivex.Single
 import java.text.SimpleDateFormat
 import java.util.*

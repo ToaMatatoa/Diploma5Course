@@ -1,4 +1,4 @@
-package com.example.coronanews.graph.ui
+package com.example.diploma_ecg.graph.ui
 
 import com.github.mikephil.charting.components.AxisBase
 import com.github.mikephil.charting.formatter.ValueFormatter

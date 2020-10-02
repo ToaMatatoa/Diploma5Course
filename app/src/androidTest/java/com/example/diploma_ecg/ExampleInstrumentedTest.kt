@@ -1,4 +1,4 @@
-package com.example.coronanews
+package com.example.diploma_ecg
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.example.coronanews.graph.model
+package com.example.diploma_ecg.graph.model
 
 import com.google.gson.annotations.SerializedName
 import java.util.*

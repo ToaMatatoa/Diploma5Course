@@ -1,6 +1,6 @@
-package com.example.coronanews.graph.data
+package com.example.diploma_ecg.graph.data
 
-import com.example.coronanews.graph.model.CountryLiveResponse import com.example.coronanews.graph.model.SummaryStatisticsResponse
+import com.example.diploma_ecg.graph.model.CountryLiveResponse import com.example.diploma_ecg.graph.model.SummaryStatisticsResponse
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query

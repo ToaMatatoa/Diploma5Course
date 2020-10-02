@@ -1,4 +1,4 @@
-package com.example.coronanews.graph.data
+package com.example.diploma_ecg.graph.data
 
 class RemoteWorldStatisticsDataStoreProvider {
 

@@ -1,8 +1,8 @@
-package com.example.coronanews.graph.ui
+package com.example.diploma_ecg.graph.ui
 
-import com.example.coronanews.graph.model.Country
-import com.example.coronanews.graph.model.CountryLiveResponse
-import com.example.coronanews.graph.model.Global
+import com.example.diploma_ecg.graph.model.Country
+import com.example.diploma_ecg.graph.model.CountryLiveResponse
+import com.example.diploma_ecg.graph.model.Global
 import java.util.*
 
 interface GraphContract {

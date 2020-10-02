@@ -1,4 +1,4 @@
-package com.example.coronanews.news.data
+package com.example.diploma_ecg.graph.data
 
 import okhttp3.Interceptor
 import okhttp3.Response

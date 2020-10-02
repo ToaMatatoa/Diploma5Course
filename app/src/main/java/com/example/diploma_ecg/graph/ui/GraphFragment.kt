@@ -1,4 +1,4 @@
-package com.example.coronanews.graph.ui
+package com.example.diploma_ecg.graph.ui
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.coronanews.R
-import com.example.coronanews.graph.model.Country
-import com.example.coronanews.graph.model.CountryLiveResponse
-import com.example.coronanews.graph.model.Global
+import com.example.diploma_ecg.R
+import com.example.diploma_ecg.graph.model.Country
+import com.example.diploma_ecg.graph.model.CountryLiveResponse
+import com.example.diploma_ecg.graph.model.Global
 import com.github.mikephil.charting.components.Legend
 import com.github.mikephil.charting.components.LegendEntry
 import com.github.mikephil.charting.components.XAxis
